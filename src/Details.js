@@ -24,6 +24,7 @@ class Details extends Component {
     const {name, animal, breed, city, state, description, images} = this.state;
 
   return(
+
     <div className="details">
     <Carousel images={images} />
       <div>
